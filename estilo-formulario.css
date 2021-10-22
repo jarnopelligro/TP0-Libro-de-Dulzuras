@@ -179,7 +179,7 @@ height:100%;
   @media(max-width:600px) {
     .grid-container {
       grid-template-columns: 130px auto;
-      grid-template-rows: 130px 40px auto  100px;
+      grid-template-rows: 130px auto auto  100px;
       grid-template-areas:
       "header header"
       "navbar navbar"
