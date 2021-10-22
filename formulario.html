@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="estilo-formulario.css">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <title>Libro de Dulzuras</title>
+</head>
+<body>
+  <body class="grid-container">
+
+    <header class="header">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="M3 2h2v20H3zm7 4h7v2h-7zm0 4h7v2h-7z"></path><path d="M19 2H6v20h13c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm0 18H8V4h11v16z"></path></svg>
+      <h1>LIBRO DE DULZURAS</h1>
+
+    </header>
+    <nav class="navbar">
+        <ul class="navigation">
+          <il><div class="home"><a href="index.html">HOME</a></div></il>
+          <il><div class="recipes"><a class="dropbtn" href="index.html">RECETAS</a>
+              <div class="dropdown-content">
+                  <a href="volcan.html">Volcan de chocolate</a>
+                  <a href="cheesecake.html">Cheesecake</a>
+                  <a href="crumble.html">Crumble de manzana</a>
+                  <a href="cookies.html">Chips de chocolate</a>
+              </div>
+              </div>
+          </il>
+          <il ><div class="contact"><a href="formulario.html">CONTACTO</a></div></il>
+        </ul>
+
+    </nav>
+    <article class="main">
+      
+      <section>
+        <div class="main-block">
+            <form name="formulario" method="post">
+              <h1>Contacto</h1>
+              <div class="info">
+                <input type="text" name="nombre" placeholder="Nombre"><br>
+                <input type="text" name="mail" placeholder="E-mail"><br>
+                <input type="text" name="numero" placeholder="Numero celular">
+              </div>
+              <br><br>
+              <p>Escribinos tu consulta aca</p>
+              <div>
+                <textarea rows="5" ></textarea>
+              </div>
+              <button type="submit" id="btn">Enviar</button>
+            </form>
+    </section>
+
+    <section>
+      <div>
+        <h2>Encontranos por aca</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8511.656462573868!2d-58.43895607874945!3d-34.66247249341885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb9203d94e29%3A0x24aeb94bc609deeb!2sDulzuras!5e0!3m2!1ses!2sar!4v1634738950905!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
+
+    </article>
+    <footer class="footer">
+      <div id="footer">
+        <div id="button"></div>
+      <div id="container">
+      <div id="cont">
+      <div id="footer_center">
+           <h2>Dulzuras © 2021</h2>
+      </div>
+      </div>
+      </div>
+      </div>
+
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
